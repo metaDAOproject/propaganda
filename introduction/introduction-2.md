@@ -12,18 +12,18 @@ Reason to be skeptical about any human altruists.
 Incentive / information ratio is too low. Who votes in stockholder meetings? Who extensively researches political candidates, incl. voting records? Very easy for the people to 'talk the talk w/o walking the walk'
 Culture & religion are a third solution for decentralized control & incentive alignment. Fragile because they are based on false premises.
 
-## From Corporations to Nations: How the Meta-DAO is Going to Change Everything (Part 2)
+# From Corporations to Nations: How the Meta-DAO is Going to Change Everything (Part 2)
 
 At this point, hopefully you understand the human coordination problem discussed in [part 1](https://medium.com/@metaproph3t/from-corporations-to-nations-how-the-meta-dao-is-going-to-change-everything-part-1-a8657562b12e). For a quick refresher, you can think of the problem as follows:
-- Organizations fare best when members of that organization maximize for the interests of the organization as a whole.
-- Humans don't tend to maximize for the interests of the organization as a whole. If they are maximizing for anything at all (rather than just floating through life and conforming to their peer group), they are usually maximizing for their narrow self-interest, which may or may not be aligned with the organization's interests.
+- Human groups fare best when their members take actions that benefit the group as a whole. For example, a company fares best when its employees are focused on growing it.
+- Instead of deciding what actions to take based on what will bring about the greatest good to the group, humans tend to be either greedy, taking actions that benefit themselves at the expense of the group, or conformist, taking whatever action will gain them acceptance in their peer group. For example, many people would prefer 'looting' a company (taking a salary without doing any work) to taking actions that grow the company.
 - Wat do?
 
-Of course, it's not as if we are the first to envision this problem. Between 193 UN member states,^1 58,200 publicly-traded companies,^2 and 4,200 religions,^3 humans have had their fair share of it. Whole philosophical treatises are dedicated to the problem. The entire field of institutional economics is devoted to it.^4 Some of the grandest projects in human history, such as the United States of America, were at their core new solutions to this problem.
+This problem has been a thorn in the side of mankind for millenia, and many have tried to remove it. Among them include intellectuals such as Plato^1 and Thomas Hobbes^2, statesmen such as the framers of the United States constitution^3, and technology founders such as Jeff Bezos^4 and Reed Hastings^5. Although all have thought about the problem differently, they were all trying to figure out how humans could work better together.
 
-Before we introduce the Meta-DAO's approach, it's worth exploring some of the ways that humans have tried to solve the human coordination. We can group these approaches into three categories, namely **culture and religion**, **philosopher-kingdoms**, and **aligning incentives**. 
+Of course, we believe that the Meta-DAO will blast them all out of the water as an engine of human coordination. But just in case you are not convinced by our proclamation of superiority, we ought to review some of these historical approaches and their limitations. We can group these approaches into three categories, namely **culture and religion**, **philosopher-kingdoms**, and **aligning incentives**. 
 
-### Culture and religion
+## Culture and religion
 
 "Whatever you wish that others would do to you, do also to them" (Matthew 7:12)
 
@@ -81,6 +81,11 @@ The theory is that managers no longer need to be altruistic, they just need to b
 
 Unfortunately, practice is messier than theory. While whole books have been devoted to the problems here^6, we can encapsulate these problems in one sentence: unsufficient alignment. In all voting-based systems, the voters have very weak incentive to research their appointees, which means that those in charge have a very weak incentive to further the group's interest. Politicians and management teams alike are usually focused more on extracting as much as possible from the institution, rather than growing it, and they can get away with it because the voters don't watch over.
 
+[1]: https://en.wikipedia.org/wiki/Republic_(Plato)
+[2]: https://en.wikipedia.org/wiki/Leviathan_(Hobbes_book)
+[3]: https://constitution.congress.gov/constitution/
+[4]: https://www.aboutamazon.com/about-us/leadership-principles
+[5]: https://www.slideshare.net/AytaKorkusuz/reed-hastings-ceo-netflix-culture
 
 [1]: https://www.un.org/en/about-us/member-states
 [2]: https://focus.world-exchanges.org/articles/number-listed-companies
