@@ -25,17 +25,17 @@ Of course, we believe that the Meta-DAO will blast them all out of the water as 
 
 ## Culture and religion
 
-"Whatever you wish that others would do to you, do also to them" (Matthew 7:12)
+> "Whatever you wish that others would do to you, do also to them" (Matthew 7:12)
 
-“Help one another in acts of piety and righteousness. And do not assist each other in acts of sinfulness and transgression. And be aware of Allah. Verily, Allah is severe in punishment” (Quran 5:2).
+> “Help one another in acts of piety and righteousness. And do not assist each other in acts of sinfulness and transgression. And be aware of Allah. Verily, Allah is severe in punishment” (Quran 5:2).
 
-"Ask not what your country can do for you – ask what you can do for your country" (John F. Kennedy, former U.S. President)
+> "Ask not what your country can do for you – ask what you can do for your country" John F. Kennedy, former U.S. President
 
-"If you truly loved yourself, you could never hurt another." (Buddha)
+> "If you truly loved yourself, you could never hurt another." Buddha
 
-"Being ethical turns out to be a selfish imperative. You want to be ethical because it attracts the other long-term players in the network... so being ethical pays off in the long run." (Naval Ravikant, high priest in Silicon Valley)
+> "Being ethical turns out to be a selfish imperative. You want to be ethical because it attracts the other long-term players in the network... so being ethical pays off in the long run." Naval Ravikant, high priest in Silicon Valley
 
-Imagine a city where all of its residents believe the above statements. Now imagine an alternate city where all residents believe "my only imperative is maximizing my own interest, which usually means screwing other people over." How would these two cities differ? 
+Imagine a city where all residents believe the above statements. Now imagine an alternate city where all residents believe "my only imperative is maximizing my own interest, which usually means screwing other people over." How would these two cities differ? 
 
 Some challenges the second city might face include:
 1. [NIMBYism](https://en.wikipedia.org/wiki/NIMBY), or the non-optimal restricting of housing supply to keep home prices high for existing homeowners.
@@ -44,10 +44,17 @@ Some challenges the second city might face include:
 
 The first city might face these challenges too, but would probably face them to a smaller degree. Its residents would be more oriented towards the group as a whole and would be more willing to make sacrifices for the sake of the group. 
 
-Hence, cultures and religions can bring an organization *closer* to the ideal. But there are some problems with this approach, including but not limited to:
-- Even if everyone is trying to follow the ideal algorithm of maximizing for global benefits, some people may be 'unwise' i.e., unable to properly weigh costs and benefits. 
-- People can often portray that they are following an organization's ethics even if they are not by simply "[saying] all the right shibboleths," in the words of Sam Bankman-Fried.^5
-- Because cultures and religions often don't portray truths backed by evidence or logic but instead "things that it would be helpful for us all to believe," they tend to be less effective against critical-thinkers. 
+This is the core of culture and religion: exploit the fact that people generally conform to the ideas around them and spread ideas that make them take actions for the benefit of the greater good. These ideas don't even need to be true, they just need to be beneficial for the group. Examples of this are the golden rule and "be good to people and you'll spend eternity in paradise, be bad to people and you'll spend eternity in a fiery pit."
+
+![golden rule across religions](media/golden-rule-in-religions.jpeg)
+
+Cultures and relions have some problems though, some of which the reader has most likely encountered. These include:
+- When a group depends on its members following a pre-set list of rules in a sheeplike manner, that group tends to adapt poorly to new environments that make their old rules invalid. See, for example, Islamic Law's impact on the stagnation of the Middle East.^6
+- Wolfs who really self-maximize at the expense of others can mask as sheep who follow the culture's ethics by simply "[saying] all the right shibboleths," in the words of likely wolf Sam Bankman-Fried.^7
+- Because cultures only exist in the minds of humans, and because humans are fickle, good cultures can be replaced by bad cultures. Hence the meme "hard times create strong men, strong men create good times, good times create weak men, weak men create hard times."
+- Even if a culture emphasizes the greater good, the masses that follow that culture may now understand *how* to bring the greater good about. 
+
+![dilbert problems with culture](media/dilbert-culture-problems.gif)
 
 ### Philosopher-kingdoms
 
@@ -86,6 +93,8 @@ Unfortunately, practice is messier than theory. While whole books have been devo
 [3]: https://constitution.congress.gov/constitution/
 [4]: https://www.aboutamazon.com/about-us/leadership-principles
 [5]: https://www.slideshare.net/AytaKorkusuz/reed-hastings-ceo-netflix-culture
+[6]: http://www.lpbr.net/2012/06/long-divergence-how-islamic-law-held.html
+[7]: https://www.vox.com/future-perfect/23462333/sam-bankman-fried-ftx-cryptocurrency-effective-altruism-crypto-bahamas-philanthropy
 
 [1]: https://www.un.org/en/about-us/member-states
 [2]: https://focus.world-exchanges.org/articles/number-listed-companies
