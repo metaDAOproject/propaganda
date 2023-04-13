@@ -102,9 +102,10 @@ Start-ups are one area where the CEO is usually sufficiently aligned with the co
 
 ## Conclusion
 
-Do you want to live in a world dominated by grifters, those who increase their share of the pie instead of growing the pie?
+While all of these approaches are better than humans living with no organization at all (i.e., lawless chaos), they each have serious flaws. In the next post, we will cover the Meta-DAO's approach and how it might be better.
 
-If not, then you have come to conclusion that humanity needs a better way of governing itself. Stay tuned for post 3, which explains the Meta-DAO and how it can change this.
+Between then and now, you might want to consider the following question: are you comfortable with the current state of affairs? Or have you grown tired of the institutions that manage the world's people and capital?
+
 
 [1]: https://en.wikipedia.org/wiki/Republic_(Plato)
 [2]: https://en.wikipedia.org/wiki/Leviathan_(Hobbes_book)
