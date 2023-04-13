@@ -56,21 +56,27 @@ Cultures and relions have some problems though, some of which the reader has mos
 
 ![dilbert problems with culture](media/dilbert-culture-problems.gif)
 
-### Philosopher-kingdoms
+## Philosopher-kingdoms
 
-"The people have no understanding and only repeat what their rulers tell them." Plato, *The Republic Book VI*
+> "The people have no understanding and only repeat what their rulers tell them." Plato, *The Republic Book VI*
 
-Plato believed that this first problem was especially corrosive. That is, he believed that humans were by and large stupid. And so, his idea was to **centralize control in a small group of wise, altruistic leaders.** These leaders would only focus on the global costs and benefits of their actions, and wouldn't think about themselves.
+Plato doubted that the masses were capable of achieving the greater good, considering them generally unintelligent. Accordingly, he advoted **centralizing control in a small group of wise and altruistic leaders (philosopher-kings).** These philosopher-kings would prioritize the global consequences of their decisions, with no self-interest involved.
 
 ![philosopher king 2x2](media/altruistic-decision-maker.excalidraw.png)
 
-Because they would be both wise and altruistic, they could be trusted to manage the society in all of its aspects. For example, these so-called philosopher-kings would decide on laws and control what work the citizens did during the day.
+Plato's logic runs as follows:
+- Because the philosopher-kings would be both wise and altruistic, we could trust them to both discern effects of their actions and to pick actions that would maximize benefits to the group. 
+- Thus, instead of leaving the group's actions up to the stupid and/or greedy masses, the philosopher-kings should make all of the group's decisions. For example, these kings would dictate what work individual members of the society would perform (e.g., farming, building, carpentry).
 
-Some examples of this system at work might include the Catholic Church during Medieval Europe and present-day Singapore and China to some extent. 
+Although Plato's vision has never been fully implemented, many organizations have gotten close. Examples include the Catholic Church during Medieval Europe^8 and present-day Singapore and China.^9
 
-Since an organization being governed by an extremely wise (able to discern global benefits and costs) and altruistic (focused only on global rather than local impacts) leader would indeed solve the human coordination problem, most criticisms are that such people do not exist. For example:
-- "The problem with philosopher-kings is that they are still human beings, and human beings are fallible. Putting too much power in the hands of a single person, even if that person is a philosopher, is a recipe for disaster." Bertrand Russell
-- "It is hard to imagine a more stupid or more dangerous way of making decisions than by putting those decisions in the hands of people who pay no price for being wrong." Thomas Sowell
+Since an organization being governed by an extremely wise (able to discern global benefits and costs) and altruistic (focused only on global rather than local impacts) leader would indeed solve the human coordination problem, most criticisms are that such people do not exist. Examples of quotes along these lines include:
+
+> "The problem with philosopher-kings is that they are still human beings, and human beings are fallible. Putting too much power in the hands of a single person, even if that person is a philosopher, is a recipe for disaster." Bertrand Russell
+
+> "It is hard to imagine a more stupid or more dangerous way of making decisions than by putting those decisions in the hands of people who pay no price for being wrong." Thomas Sowell
+
+A good example of a failed philosopher-kingdom is China under Chairman Mao. Because he was so popular, he was basically unaccountable, which allowed him to implement policies that led to mass-starvation without being ejected from office.^10
 
 ### Aligning incentives
 
@@ -95,6 +101,9 @@ Unfortunately, practice is messier than theory. While whole books have been devo
 [5]: https://www.slideshare.net/AytaKorkusuz/reed-hastings-ceo-netflix-culture
 [6]: http://www.lpbr.net/2012/06/long-divergence-how-islamic-law-held.html
 [7]: https://www.vox.com/future-perfect/23462333/sam-bankman-fried-ftx-cryptocurrency-effective-altruism-crypto-bahamas-philanthropy
+[8]: https://archive.org/details/papalmonarchywes0000morr_h6a9
+[9]: https://en.wikipedia.org/wiki/Philosopher_king
+[10]: https://www.bbc.co.uk/history/historic_figures/mao_zedong.shtml
 
 [1]: https://www.un.org/en/about-us/member-states
 [2]: https://focus.world-exchanges.org/articles/number-listed-companies
