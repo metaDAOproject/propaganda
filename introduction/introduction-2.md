@@ -1,17 +1,3 @@
-From issue:
-
-Explain how humans have solved the coordination problem before.
-
-Include the following pieces:
-
-Refreshing the reader on the coordination problem: that people don't naturally do what they're supposed to do (maximize benefits to group)
-Plato's solution is to centralize control in a small group of 'philosopher kings' (i.e., wise altruists) who care about betterment of the whole. Examples of this are centrally-planned economies (e.g., historical Soviet Union, present-day China to some extent) and theocracies (e.g., Islamic Caliphates, Europe during Middle Ages to a large extent).
-Another solution, very common in economic institutions, is to align incentives. As before, you centralize control in a small group and allow them to exert outsized control on the institution, but instead of hoping for altruism you give the group a taste of the group's upside or downside. Founder-led companies & public companies with management stock incentives examples of this. Democracies are also an example of this.
-Both are flawed, probably the former more than the latter.
-Reason to be skeptical about any human altruists.
-Incentive / information ratio is too low. Who votes in stockholder meetings? Who extensively researches political candidates, incl. voting records? Very easy for the people to 'talk the talk w/o walking the walk'
-Culture & religion are a third solution for decentralized control & incentive alignment. Fragile because they are based on false premises.
-
 # From Corporations to Nations: How the Meta-DAO is Going to Change Everything (Part 2)
 
 At this point, hopefully you understand the human coordination problem discussed in [part 1](https://medium.com/@metaproph3t/from-corporations-to-nations-how-the-meta-dao-is-going-to-change-everything-part-1-a8657562b12e). For a quick refresher, you can think of the problem as follows:
