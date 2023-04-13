@@ -52,7 +52,7 @@ Plato doubted that the masses were capable of achieving the greater good, consid
 
 Plato's logic runs as follows:
 - Because the philosopher-kings would be both wise and altruistic, we could trust them to both discern effects of their actions and to pick actions that would maximize benefits to the group. 
-- Thus, instead of leaving the group's actions up to the stupid and/or greedy masses, the philosopher-kings should make all of the group's decisions. For example, these kings would dictate what work individual members of the society would perform (e.g., farming, building, carpentry).
+- Thus, instead of leaving the group's actions up to the stupid and/or greedy masses, the philosopher-kings should make all of the group's decisions. For example, these kings should dictate what work individual members of the society would perform (e.g., farming, building, carpentry).
 
 Although Plato's vision has never been fully implemented, many organizations have gotten close. Examples include the Catholic Church during Medieval Europe^8 and present-day Singapore and China.^9
 
@@ -62,7 +62,7 @@ Since an organization being governed by an extremely wise (able to discern globa
 
 > "It is hard to imagine a more stupid or more dangerous way of making decisions than by putting those decisions in the hands of people who pay no price for being wrong." Thomas Sowell
 
-A good example of a failed philosopher-kingdom is China under Chairman Mao. Because he was so popular, he was basically unaccountable, which allowed him to implement policies that led to mass-starvation without being ejected from office.^10
+A good example of a failed philosopher-kingdom is China under Chairman Mao. Because he was so popular, he was unaccountable, which allowed him to implement policies that led to mass-starvation without being ejected from office.^10
 
 ## Aligning incentives
 
@@ -74,7 +74,7 @@ For example, shareholders of a public company vote in boards of directors and in
 
 ![administrative-stakeholder-relationship](media/StakeholderAdministratorRelationship.excalidraw.png)
 
-Because administrators are voted in, they are accountable to further the interests of the group. For example, in a public company, the shareholders elect the board of directors and management teams. If the management team does not act in the interest of the shareholders, they risk being voted out in the next shareholder meeting. In a democracy, citizens vote for their representatives, who are then responsible for representing their interests in the legislative process. Additionally, management teams often receive financial incentives via stock ownership or options, which aligns their interests with the shareholders.
+Because administrators are voted in, they are accountable to further the interests of the group. For example, in a public company, the shareholders elect the board of directors and management teams. If the management team does not act in the interest of the shareholders, they risk being voted out in the next shareholder meeting. In a democracy, citizens vote for their representatives, who are then responsible for representing their interests in the legislative process. They, too, risk being voted out if they don't act in the interest of the group. 
 
 The goal of all of this is to internalize the [externalities](https://en.wikipedia.org/wiki/Externality) of the decision-makers' actions, which means that the decision-makers take into account the effects of their actions on the entire group, not just their own interests. By internalizing these externalities, even a decision-maker motivated solely by personal gain would take actions that further the group's interests, because those actions would also benefit themselves.
 
@@ -84,7 +84,7 @@ Unfortunately, practice often falls short of theory. Despite the intentions behi
 
 ![Ginni Rometty, Grifter-in-Chief](media/ginni-rometti.jpg)
 
-Start-ups are one area where the CEO is usually sufficiently aligned with the company as a whole, but founders eventually retire or die, and when they do they will be likely be replaced by a grifter.
+Start-ups are one area where the CEO is usually sufficiently aligned with the company as a whole, but founders eventually retire or die, and when they do they will likely be replaced by a grifter.
 
 ## Conclusion
 
