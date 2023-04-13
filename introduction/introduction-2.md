@@ -94,7 +94,7 @@ The goal of all of this is to internalize the [externalities](https://en.wikiped
 
 ![externality-internalization](media/externality-internalization.excalidraw.png)
 
-Unfortunately, practice often falls short of theory. Despite the intentions behind aligning incentives, there are numerous obstacles to achieving sufficient alignment between decision-makers and the group they are meant to represent. For example, voters in many voting-based systems have little incentive to thoroughly research their appointees, which means that those in power may have little incentive to act in the best interest of the group. Grifters, such as Ginni Rometty who as CEO of IBM presided over 24 quarters of declining revenues, can remain in power as long as they can 'work the system.'^11 
+Unfortunately, practice often falls short of theory. Despite the intentions behind aligning incentives, there are numerous obstacles to achieving sufficient alignment between decision-makers and the group they are meant to represent. For example, voters in many voting-based systems have little incentive to thoroughly research their appointees, which means that those in power may have little incentive to act in the best interest of the group.^11 Grifters, such as Ginni Rometty who as CEO of IBM presided over 24 quarters of declining revenues, can remain in power as long as they can 'work the system.'^12
 
 ![Ginni Rometty, Grifter-in-Chief](media/ginni-rometti.jpg)
 
@@ -117,11 +117,5 @@ Between then and now, you might want to consider the following question: are you
 [8]: https://archive.org/details/papalmonarchywes0000morr_h6a9
 [9]: https://en.wikipedia.org/wiki/Philosopher_king
 [10]: https://www.bbc.co.uk/history/historic_figures/mao_zedong.shtml
-[11]: https://money.cnn.com/2018/01/18/technology/business/ibm-q4-earnings/index.html
-
-[1]: https://www.un.org/en/about-us/member-states
-[2]: https://focus.world-exchanges.org/articles/number-listed-companies
-[3]: https://www.reference.com/world-view/many-religions-world-8f3af083e8592895
-[4]: https://www.newworldencyclopedia.org/entry/Institutional_economics
-[5]: https://www.vox.com/future-perfect/23462333/sam-bankman-fried-ftx-cryptocurrency-effective-altruism-crypto-bahamas-philanthropy
-[6]: https://books.google.com/books/about/Managing_the_Commons_Second_Edition.html?id=Td2turpuRX8C
+[11]: https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action
+[12]: https://money.cnn.com/2018/01/18/technology/business/ibm-q4-earnings/index.html
