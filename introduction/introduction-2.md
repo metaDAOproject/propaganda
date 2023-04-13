@@ -78,21 +78,25 @@ Since an organization being governed by an extremely wise (able to discern globa
 
 A good example of a failed philosopher-kingdom is China under Chairman Mao. Because he was so popular, he was basically unaccountable, which allowed him to implement policies that led to mass-starvation without being ejected from office.^10
 
-### Aligning incentives
+## Aligning incentives
 
-A third approach which has gained wide adoption in the modern world is to 'align incentives.' As in a philosopher-kingdom, power is centralized in a central command structure. Unlike a philosopher-kingdom, this central command structure is at least in theory accountable to the stakeholders of the organization.
+A third approach, and the most common one in the modern world, is aligning incentives. The idea is as follows:
+- As in a philosopher-kingdom, centralize power in a group of administrators.
+- Unlike a philosopher-kingdom, have these administrators, or at least the top ones, accountable to the broader group.
+
+For example, shareholders of a public company vote in boards of directors and in effect CEOs. Citizens of a democracy vote on presidents and/or legislative representatives.
 
 ![administrative-stakeholder-relationship](media/StakeholderAdministratorRelationship.excalidraw.png)
 
-Prominent examples of this approach include democracies and public companies. You may not think of politicians and professional managers as similar, but structurally they perform the same task: act on behalf of a group that votes them in.
+Because administrators are voted in, they are accountable to further the interests of the group. For example, in a public company, the shareholders elect the board of directors and management teams. If the management team does not act in the interest of the shareholders, they risk being voted out in the next shareholder meeting. In a democracy, citizens vote for their representatives, who are then responsible for representing their interests in the legislative process. Additionally, management teams often receive financial incentives via stock ownership or options, which aligns their interests with the shareholders.
 
-In this way, these central administrators are supposed to feel the global benefits and costs of their actions. For example, if a politician upsets the masses by making a bad decision, this may hurt their chances in the next election cycle. If a management team isn't working in the interest of the stockholders, an activist investor may swoop in and kick them out.
+The goal of all of this is to internalize the [externalities](https://en.wikipedia.org/wiki/Externality) of the decision-makers' actions, which means that the decision-makers take into account the effects of their actions on the entire group, not just their own interests. By internalizing these externalities, even a decision-maker motivated solely by personal gain would take actions that further the group's interests, because those actions would also benefit themselves.
 
 ![externality-internalization](media/externality-internalization.excalidraw.png)
 
-The theory is that managers no longer need to be altruistic, they just need to be wise. Their incentives will be aligned with the group as a whole, and so them trying to maximize for their individual interests will lead them to maximize for the group's interests.
+Unfortunately, practice often falls short of theory. Despite the intentions behind aligning incentives, there are numerous obstacles to achieving sufficient alignment between decision-makers and the group they are meant to represent. For example, voters in many voting-based systems have little incentive to thoroughly research their appointees, which means that those in power may have little incentive to act in the best interest of the group. Grifters, such as Ginni Rometty who as CEO of IBM presided over 24 quarters of declining revenues, can remain in power as long as they can 'work the system.' 
 
-Unfortunately, practice is messier than theory. While whole books have been devoted to the problems here^6, we can encapsulate these problems in one sentence: unsufficient alignment. In all voting-based systems, the voters have very weak incentive to research their appointees, which means that those in charge have a very weak incentive to further the group's interest. Politicians and management teams alike are usually focused more on extracting as much as possible from the institution, rather than growing it, and they can get away with it because the voters don't watch over.
+![Ginni Rometty, Grifter-in-Chief](media/ginni-rometti.jpg)
 
 [1]: https://en.wikipedia.org/wiki/Republic_(Plato)
 [2]: https://en.wikipedia.org/wiki/Leviathan_(Hobbes_book)
