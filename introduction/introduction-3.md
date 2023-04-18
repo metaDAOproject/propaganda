@@ -12,9 +12,13 @@ Using markets to calculate impact on each member
 
 ## Introduction
 
-In all prior approaches to human organization, humans have been the ones in command. To ensure that these leaders serve the interests of the group, these approaches have tended to focus on either incentive-aligning these leaders or selecting altruistic leaders.^1
+![intro picture](media/MetaDAOGovernance.drawio.png)
 
-We propose an alternative organization where control is handed to executable computer code, namely eBPF instructions stored on the Solana blockchain. Here, we will describe the decision-making algorithm that will maintain control of this organization. 
+In [existing approaches to human organization](https://medium.com/@metaproph3t/from-corporations-to-nations-how-the-meta-dao-is-going-to-change-everything-part-2-8abe5b6814fc), we allow humans to rule. Whether the organizations be corporations or national governments and whether the rulers be CEOs, board members, prime ministers, congressmen, or ayatollahs, the structure is mostly the same: humans appointed to serve the interests of the group.
+
+Although these approaches are better than no organization at all, they suffer from the problems of giving humans control.^1
+
+We propose an alternative organization where control is handed to executable computer code, namely eBPF instructions stored on the Solana blockchain. The design of this organization's algorithm will be the subject of this post.
 
 ## Ideal decision-making
 
@@ -105,7 +109,7 @@ Although the market is unlikely to perfectly predict how a proposal will impact 
 
 We have demonstrated a design for a human organization where the managerial decisions are made by eBPF instructions on the Solana blockchain. Because this system is not human-led, it doesn't suffer some of the problems of prior approaches to human organization, including ensuring that the leader is either altruistic or incentive-aligned. 
 
-[1]: https://medium.com/@metaproph3t/from-corporations-to-nations-how-the-meta-dao-is-going-to-change-everything-part-2-8abe5b6814fc
+[1]: We discussed these problems in part 2. For further examples and discussion of this, see [principal-agent problems](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem), [corporate governance](https://en.wikipedia.org/wiki/Corporate_governance), [political corruption](https://en.wikipedia.org/wiki/Political_corruption), [regulatory capture](https://en.wikipedia.org/wiki/Regulatory_capture), and [gerrymandering](https://en.wikipedia.org/wiki/Gerrymandering).
 
 
 
