@@ -2,13 +2,18 @@
 
 ![intro picture](media/MetaDAOGovernance.drawio.png)
 
-## Introduction
+## Abstract
 
-In [existing approaches to human organization](https://medium.com/@metaproph3t/from-corporations-to-nations-how-the-meta-dao-is-going-to-change-everything-part-2-8abe5b6814fc), we allow humans to rule. Whether the organizations be corporations or national governments and whether the rulers be CEOs, board members, prime ministers, congressmen, or ayatollahs, the structure is mostly the same: humans appointed to serve the interests of the group.
+[Existing approaches to human organization](https://medium.com/@metaproph3t/from-corporations-to-nations-how-the-meta-dao-is-going-to-change-everything-part-2-8abe5b6814fc) have human rulers. Whether the organizations be corporations or national governments and whether the rulers be CEOs, board members, prime ministers, congressmen, or ayatollahs, the structure is mostly the same: humans appointed to serve the interests of the group.
 
-Although these approaches are better than no organization at all, they suffer from the problems of giving humans control.[^1]
+Although these approaches are better than no organization at all, they suffer from the [principal-agent problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem). Simply stated, these rulers often take self-serving actions that hurt the group.[^1]
 
-We propose an alternative organization where control is handed to executable computer code, namely eBPF instructions stored on the Solana blockchain. The design of this organization's algorithm will be the subject of this post.
+We propose an alternative organization where control is handed to executable computer code, namely eBPF instructions stored on the Solana blockchain. We will describe the mechanics of this organization in this post.
+
+As a TL;DR:
+- The organization is broken up into smaller organizations called members. Members operate businesses and have tokens that function like common stock.
+- When the organization is deciding on a potential action, an algorithm automatically estimates how that action will impact each member, and only takes actions that are net-positive for the group as a whole.
+- To estimate how an action will impact a member, we use a market-based system.
 
 ## Members
 
@@ -18,40 +23,46 @@ We define members as single-product profit-seeking entities. Members have their 
 
 ## Proposals
 
-As in many existing DAOs, members take actions via improvement proposals.[^2] Each improvement proposal contains a list of commands, where a command contains a member and a Solana [instruction](https://docs.solana.com/terminology#instruction) that the member can execute.[^3] If a propsal passes, instructions are executed by their corresponding members.
+As in many existing DAOs, members take actions via improvement proposals.[^2] Each improvement proposal contains a list of commands, where a command contains a member and a Solana [instruction](https://docs.solana.com/terminology#instruction) that the member can execute.[^3] If a proposal passes, instructions are executed by their corresponding members.
 
 ![improvement proposal](media/improvement-proposal.png)
 
 ## Decision-making apparatus
 
-In [post 1](https://medium.com/@metaproph3t/from-corporations-to-nations-how-the-meta-dao-is-going-to-change-everything-part-1-a8657562b12e), we described an ideal decision-making algorithm as one that furthers the interests of the group. Here, this means executing any proposal that would have a net-positive impact on the financials of the members.
+To decide whether or not to execute an improvement proposal, the Meta-DAO does the following:
 
-Concretely, this algorithm is as follows:
 1. Estimate, in some base currency, the impact of this proposal on each member's valuation.
 2. Summate all of these estimated impacts.
 3. Execute the proposal if, and only if, the resulting sum is positive.
 
-In this way, the algorithm neutrally adjudicates between the interests of members. For example, if a proposal would have an estimated +$10MM impact on member A but an estimated -$15MM impact on member B, the proposal would not go through because (+10,000,000) + (-15,000,000) is non-positive.
+For example, consider a proposal for member A to raise its prices. This would benefit A by bolstering profitability. On the other hand, member B shares a brand with A, and B is likely to be hurt by this since it would tarnish the low-price brand image that B has tried to build.
+
+Following step 1, the algorithm estimates that a proposal would increase A's valuation by $10MM by decrease B's by $15MM. In other words, the proposal has expected impacts of +$10MM and -$15MM. Step 2 would result in -$5MM, which would lead the algorithm to not execute the proposal in step 3 since -$5MM is negative.
 
 ![](media/decision-making.png)
 
+This algorithm is ideal, by [post 1](https://medium.com/@metaproph3t/from-corporations-to-nations-how-the-meta-dao-is-going-to-change-everything-part-1-a8657562b12e)'s definition of an ideal decision-making algorithm, because it takes an action if, and only if, its global benefits outweigh its global costs. Specifically, any proposal needs to be expected to grow the total wealth of the system in order to pass.
+
 ## Estimating impact
 
-To estimate the financial impact of a proposal on member, we use a system based on [Robin Hanson's futarchy](https://mason.gmu.edu/~rhanson/futarchy.html). 
+To estimate how a proposal will impact a member's valuation, we use a system based on [Robin Hanson's futarchy](https://mason.gmu.edu/~rhanson/futarchy.html). 
 
 While a proposal is active, investors can lock arbitrary tokens into a *vault* in exchange for two convertible instruments: one that converts back to the token if the proposal passes and one that converts if it fails. We call the former a *convertible-on-pass* token and the latter a *convertible-on-fail* token.
 
 ![](media/conditional-token-minting.png)
 
-We may use the market prices of these convertible instruments to estimate the impact of a proposal on a member's valuation. 
+Investors may trade these convertible instruments freely. One of their use-cases is betting on how a proposal will affect a member.
 
-Given some base currency (e.g., SOL, USDC), the market price of a convertible-on-pass member token divided by the market market price of a convertible-on-pass base token reflects the market's assessment of what that member token would be worth if the proposal were to pass. 
+For example, if investors believe that a member token would be worth 10 SOL if a proposal were to pass, but a convertible-on-pass member token could be had for 9 convertible-on-pass SOL, investors are incentivized to lock up their SOL in the vault and trade the resultant convertible-on-pass SOL for convertible-on-pass member token until the price reaches 10 convertible-on-pass SOL. 
 
-For example, if investors believe that a member token would be worth 10 SOL if a proposal were to pass, but a convertible-on-pass member token could be had for 9 convertible-on-pass SOL, investors are incentivized to lock up their SOL in the vault and trade the resultant convertible-on-pass SOL for convertible-on-pass member token until the price reaches 10 convertible-on-pass SOL. This way, if the proposal passes, the investor has locked in the cheaper price; if the proposal fails, they can still get their original SOL back.
+If the proposal passes, the investor has locked in the cheaper price; if the proposal fails, they can still get their original SOL back.
 
-We call the *pass price* the price of convertible-on-pass member tokens, quoted in convertible-on-pass base tokens, and the *fail price* the price of convertible-on-fail member tokens, quoted in convertible-on-fail base tokens.
+TODO: add an image of investor locking in, trading
 
-To estimate how member's valuation will be impacted by a proposal, we take subtract the fail price from the pass price and multiply the difference by the member token's total supply. This difference in market capitalization is the market's assessment of the proposal's impact on the member's valuation.
+Importantly, we can use the market prices of these convertible instruments to estimate the impact of a proposal on a member's valuation. A *pass price*, or the market's estimate of what a member's token would be worth if the proposal were to pass, is simply the price of convertible-on-pass member tokens, quoted in convertible-on-pass base tokens. Likewise, the *fail price*, the market's estimate of what the token would be worth if the proposal failed, is 
+just the price of convertible-on-fail member tokens, quoted in convertible-on-fail base tokens.
+
+Once we have the pass price and the fail price, calculating the market's estimate of the proposal's impact on this member's valuation is a simple matter of subtracting the fail price from the pass price and then multiplying by the token's total supply.
 
 ![calculating impact](media/CalculatingImpact.drawio.png)
 
