@@ -57,14 +57,14 @@ For example, if investors believe that a member token would be worth 10 SOL if a
 
 If the proposal passes, the investor has locked in the cheaper price; if the proposal fails, they can still get their original SOL back.
 
-TODO: add an image of investor locking in, trading
+![](media/conditional-trade.png)
 
 Importantly, we can use the market prices of these convertible instruments to estimate the impact of a proposal on a member's valuation. A *pass price*, or the market's estimate of what a member's token would be worth if the proposal were to pass, is simply the price of convertible-on-pass member tokens, quoted in convertible-on-pass base tokens. Likewise, the *fail price*, the market's estimate of what the token would be worth if the proposal failed, is 
 just the price of convertible-on-fail member tokens, quoted in convertible-on-fail base tokens.
 
 Once we have the pass price and the fail price, calculating the market's estimate of the proposal's impact on this member's valuation is a simple matter of subtracting the fail price from the pass price and then multiplying by the token's total supply.
 
-![calculating impact](media/CalculatingImpact.drawio.png)
+![](media/calculating-impact.png)
 
 ## Questions and objections
 
